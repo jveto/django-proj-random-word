@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Word Generator</title>
+    <style>
+        p{
+            text-align:center;
+        }
+        h1{
+            text-align:center;
+        }
+        input{
+            display:block;
+            margin:0 auto;
+        }
+        .conatiner{
+            display:block;
+            width:75%;
+            margin:0 auto;
+        }
+        .littleBox{
+            display:block;
+            width:50%;
+            margin:10px auto;
+        }
+        .bigBox{
+            display:block;
+            width:60%;
+            margin:10px auto;
+            border:2px solid blue;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="littleBox">
+            <p>Random Word (attempt #{{attempts}})</p>
+
+        </div>
+        <div class="bigBox">
+            <h1>{{randomWord}}</h1>
+
+        </div>
+        <div class="generate">
+            <input type="submit" value="Generate" />
+
+        </div>
+
+
+    </div>
+</body>
+</html>
